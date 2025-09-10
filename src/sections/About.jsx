@@ -4,6 +4,7 @@ import { useRef } from "react"
 import Card from "../components/Card"
 import { Globe } from "../components/Globe";
 import CopyEmailButton from "../components/CopyEmailButton";
+import { Framework } from "../components/Framework";
 
 
 const About = () => {
@@ -22,7 +23,7 @@ const About = () => {
                         <p className="headtext">   Hi, I'm Sourav</p>
                         <p className="subtext">
 
-                            Showing case my portfolio and skills of delivering dynameic and software ans webapplications.
+                            Showing case my portfolio and skills of delivering dynameic and software ans web applications.
                         </p>
                     </div>
 
@@ -49,18 +50,23 @@ const About = () => {
                         <p
                             className="subtext">I'm based in India, and open to remote work worldwide.</p>
                     </div>
-                    <figure className="absolute left-[30%] top-[10%]"><Globe/></figure>
+                    <figure className="absolute left-[30%] top-[10%]"><Globe /></figure>
                 </div>
                 <div className="grid-special-color grid-4">
                     <div className="flex flex-col items-center justify-center gap-4 size-full">\<p className="headtext text-center">
                         Lets start building together XD
-                        </p>
-                        <CopyEmailButton/>
-                        </div>
+                    </p>
+                        <CopyEmailButton />
+                    </div>
                 </div>
                 <div className="grid-default-color grid-5">
+                    <div className="z-10 w-[50%]">
+                        <p className="headtext">Tech Stack</p>
+                        <p className="subtext">I have a good knowlege of java language, framework and tools that allow me to build robust and scalable applications</p>
+                    </div>
+
                     <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start=[50%] md:scale-125">
-                        
+                        <Framework />
 
                     </div>
 
