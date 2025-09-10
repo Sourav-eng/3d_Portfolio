@@ -65,7 +65,7 @@ const About = () => {
                         <p className="subtext">I have a good knowlege of java language, framework and tools that allow me to build robust and scalable applications</p>
                     </div>
 
-                    <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start=[50%] md:scale-125">
+                    <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
                         <Framework />
 
                     </div>
