@@ -1,33 +1,33 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "PictoPixi-AI Text-to-Image Generator",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "An AI-powered application that generates high-quality images from user-provided text prompts, enabling creative and rapid visual content creation.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Developed a scalable AI image generation application using state-of-the-art deep learning models.",
+      "Integrated APIs for text-to-image conversion with optimized rendering speed and quality.",
+      "Designed a responsive frontend using Tailwind CSS for an intuitive and seamless user experience.",
+      "Implemented image download, prompt history, and customization features for enhanced usability."
     ],
-    href: "",
+    href: "https://github.com/Sourav-eng/PictoPixi",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/ai.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "html5",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "mongodb",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 4,
@@ -38,71 +38,59 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Spotify Clone",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "A music streaming web application where users can play and control songs with an interactive interface.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Built using HTML, CSS, and JavaScript without any external frameworks.",
+      "Implemented custom audio controls including play, pause, next, and previous functionality.",
+      "Designed a responsive and visually appealing interface inspired by Spotify's layout.",
+      "Added dynamic playlist and song selection features for a smooth user experience.",
     ],
-    href: "",
+    href: "https://github.com/Sourav-eng/Spotify-clone",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/musicapp.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "Html",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "Css",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "Javascript",
+        path: "/assets/logos/javascript.svg",
       },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Todo List",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A modern and interactive task management application built with React and Tailwind CSS.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Developed a fully interactive Single Page Application (SPA) using React.",
+      "Implemented efficient state management for smooth task creation, editing, and deletion.",
+      "Designed a responsive and visually appealing UI with Tailwind CSS.",
+      "Optimized component rendering for better performance and user experience.",
     ],
-    href: "",
+
+    href: "https://github.com/Sourav-eng/Todo-siite-with-react",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/todo.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
+
       {
         id: 4,
         name: "TailwindCSS",
@@ -112,147 +100,70 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Twitter Clone",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A responsive social media web application replicating core Twitter functionalities.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Developed using HTML, CSS, JavaScript, and Tailwind CSS without any frameworks.",
+      "Implemented features such as posting tweets, liking, and deleting posts.",
+      "Designed a responsive, mobile-first layout inspired by Twitter’s UI.",
+      "Added local storage support to persist tweets between sessions.",
     ],
-    href: "",
+
+    href: "https://github.com/Sourav-eng/twitter-_using-_tailwind",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/twitter.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
+        name: "html5",
         path: "/assets/logos/html5.svg",
       },
       {
-        id: 3,
-        name: "CSS3",
+        id: 2,
+        name: "css3",
         path: "/assets/logos/css3.svg",
       },
       {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "tailwind",
+        path: "/assets/logos/tailwind.svg",
       },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+
     ],
   },
+
 ];
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "Github",
+    href: "https://github.com/Sourav-eng",
+    icon: "/assets/socials/github.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/sourav-nishad-357422331",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    name: "Twitter",
+    href: "https://x.com/Sourav74437165",
+    icon: "/assets/socials/twitter.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Ai Intern IBM",
+    job: "Ai Developer",
+    date: "June 2025-Aug 2025 ",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Contributed to the development of generative AI models for text and image generation tasks using Python and transformer-based architectures.",
+      "Gained experience in prompt engineering, dataset preprocessing, and model evaluation techniques.",
+      "Created Gemini Chatbot and AI Text-to-Image generator that improved responsiveness by 20%.",
+      "Collaborated with the team to deploy AI models into real-time applications using REST APIs and backend integration.",
     ],
   },
-  
+
 ];

@@ -10,7 +10,7 @@ import { Framework } from "../components/Framework";
 const About = () => {
     const gridContainer2 = useRef();
     return (
-        <section className="c-space section-spacing">
+        <section id="about" className="c-space section-spacing">
             <h2 className="text-heading">
                 About Me
             </h2>

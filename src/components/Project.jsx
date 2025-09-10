@@ -14,7 +14,7 @@ const Project = ({
   const [isHidden, setIsHidden] = useState(false);
   return (
     <>
-      <div
+      <div 
         className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
         onMouseEnter={() => setPreview(image)}
         onMouseLeave={() => setPreview(null)}
@@ -38,6 +38,7 @@ const Project = ({
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
       {isHidden && (
         <ProjectDetails
+     
           title={title}
           description={description}
           subDescription={subDescription}
